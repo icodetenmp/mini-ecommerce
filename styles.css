@@ -838,7 +838,7 @@ a:focus{
 }
 
 /*====Mobile oooo*/
-@media (max-width: 750px){
+@media (max-width: 900px){
     body{
         padding: 0%;
         margin: 0%;
