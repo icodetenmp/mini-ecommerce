@@ -1129,3 +1129,130 @@ a:focus{
     border-radius: 0px;
 }
 }
+
+@media (max-width: 900px) and (orientation: landscape){
+    #search input{
+        height: 4rem;
+    }
+    #imagedisplay{
+        border: none;
+        margin-top: 1rem;
+    }
+    .flexone{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        overflow: hidden;
+    }
+    .imagebox{
+        margin: 0%;
+        max-width: 100px;
+        position: relative;
+        
+        
+    }
+    .words{
+        display: inline-block;
+        min-width: 250px;
+        min-height: 70px;
+        margin-top: 6.5rem;
+        position: relative;
+        right: 3rem;
+        
+    }
+    .words h2{
+        font-size: 10vh;
+    }
+    .words p{
+        font-size: 5vh;
+    }
+    .words button{
+        width: 15vw;
+        height: 10vh;
+        position: relative;
+        top: 3rem;
+        font-size: 4vh;   
+    }
+    .items-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        gap: 2rem;
+    }
+    .items{
+        padding: 3rem 0;
+    }
+    .box{
+        width: 7rem;
+        height: 7.2rem;
+    }
+    .items-container h2{
+        height: 1.2rem;
+    }
+    .infoone h4{
+        margin-left: 1.1rem;
+    }
+    #footer{
+        height: 40vh;
+    }
+    .foot{
+        font-size: 2.5vh;
+        line-height: 1.7rem;
+    }
+    .foot h1{
+        font-size: 2.5vh;
+    }
+
+    /*====shopsub 0*/
+    #bar{
+        height: 5rem;
+    }
+    
+    .shopclass{
+        min-width: 80%;
+        padding: 0;
+    }
+    .shopclass h4{
+        margin: 0;
+    }
+    .shopclass button{
+        height: 2rem;
+    }
+
+    /*====cart*/
+
+    
+    .cartinfoone{
+        min-width: 100%;
+    }
+    .cartbox{
+        width: 98%;
+        margin: 0% 0.3rem;
+    }
+    .cartsub{
+        width: 70vw;
+    }
+    .cartsub h3{
+        font-size: 6vh;
+    }
+    .del{
+        font-size: 5vh;
+        gap: 10rem;
+        padding-left: 3rem;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .total{
+        text-align: left;
+        padding-left: 5rem;
+    }
+    .total h1{
+        font-size: 12vh;
+    }
+    .total input{
+        width: 70vw;
+        height: 20vh;
+        
+        font-size: 8vh;
+    }
+}
