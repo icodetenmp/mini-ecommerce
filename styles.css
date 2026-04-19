@@ -1203,8 +1203,21 @@ a:focus{
     }
 
     /*====shopsub 0*/
+    #head span{
+        font-size: 5vh;
+    }
+    #head a{
+        font-size: 5vh;
+    }
+.shopsub h1{
+    font-size: 8vh;
+}
+.shopsub p{
+    font-size: 4vh;
+}
+
     #bar{
-        height: 5rem;
+        height: 8rem;
     }
     
     .shopclass{
